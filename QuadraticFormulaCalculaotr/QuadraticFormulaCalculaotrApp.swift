@@ -11,7 +11,7 @@ import SwiftUI
 struct QuadraticFormulaCalculaotrApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootsCalculatorView()
         }
     }
 }

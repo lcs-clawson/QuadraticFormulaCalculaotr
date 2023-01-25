@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		36C917D92981920A0039435F /* QuadraticFormulaCalculaotrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C917D82981920A0039435F /* QuadraticFormulaCalculaotrApp.swift */; };
-		36C917DB2981920A0039435F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C917DA2981920A0039435F /* ContentView.swift */; };
 		36C917DD2981920C0039435F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C917DC2981920C0039435F /* Assets.xcassets */; };
 		36C917E02981920C0039435F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C917DF2981920C0039435F /* Preview Assets.xcassets */; };
+		36C917E7298192500039435F /* RootsCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C917E6298192500039435F /* RootsCalculatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		36C917D52981920A0039435F /* QuadraticFormulaCalculaotr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuadraticFormulaCalculaotr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C917D82981920A0039435F /* QuadraticFormulaCalculaotrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticFormulaCalculaotrApp.swift; sourceTree = "<group>"; };
-		36C917DA2981920A0039435F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		36C917DC2981920C0039435F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36C917DF2981920C0039435F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		36C917E6298192500039435F /* RootsCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootsCalculatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				36C917D82981920A0039435F /* QuadraticFormulaCalculaotrApp.swift */,
-				36C917DA2981920A0039435F /* ContentView.swift */,
+				36C917E8298192B10039435F /* Views */,
 				36C917DC2981920C0039435F /* Assets.xcassets */,
 				36C917DE2981920C0039435F /* Preview Content */,
 			);
@@ -65,6 +65,14 @@
 				36C917DF2981920C0039435F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		36C917E8298192B10039435F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				36C917E6298192500039435F /* RootsCalculatorView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36C917DB2981920A0039435F /* ContentView.swift in Sources */,
+				36C917E7298192500039435F /* RootsCalculatorView.swift in Sources */,
 				36C917D92981920A0039435F /* QuadraticFormulaCalculaotrApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
