@@ -14,28 +14,27 @@ struct RootsCalculatorView: View {
     
     
     var body: some View {
-        Text("Find The Roots")
-            .font(Font.custom("Times New Roman",
-                              size: 24.0,
-                              relativeTo: .body))
         
-        VStack {
-            Image ("Quad Form")
+        VStack{
+            Text("Find The Roots")
+                .font(Font.custom("Times New Roman",
+                                  size: 24.0,
+                                  relativeTo: .body))
+            
+                Image ("Quad Form")
                 .resizable()
                 .scaledToFit()
-            Image ("Formula")
+                    
+                Image ("Formula")
                 .resizable()
                 .scaledToFit()
-            
-            
-        }
-        
-        
+                    
+                
+                }
+        .padding()
     }
+    
 }
-
-
-
 
 
 
