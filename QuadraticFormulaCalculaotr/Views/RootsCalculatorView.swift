@@ -12,10 +12,29 @@ struct RootsCalculatorView: View {
     
     //MARK Computed Properties
     
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Find The Roots")
+            .font(Font.custom("Times New Roman",
+                              size: 24.0,
+                              relativeTo: .body))
+        
+        VStack {
+            Image ("Quad Form")
+                .resizable()
+                .scaledToFit()
+            Image ("Formula")
+                .resizable()
+                .scaledToFit()
+            
+            
+        }
+        
+        
     }
 }
+
+
 
 
 
